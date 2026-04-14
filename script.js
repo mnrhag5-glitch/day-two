@@ -166,19 +166,57 @@
 
 //  ||----says i need onlty one true condition and i will gave ture 
 
-let age =23;
-let hasVoterId=true;
+// let age =23;
+// let hasVoterId=true;
 
-if(age>=18 && hasVoterId===true){
-    console.log("you can vote buddy")
+// if(age>=18 && hasVoterId===true){
+//     console.log("you can vote buddy")
+// }else{
+//     console.log("bhagg ynha se");
+// }
+
+
+// let todayFriday=false;
+// let todayHoliday=false;
+
+// if(todayHoliday===true || todayFriday===true){
+//     console.log("friday hai pencho")
+// }else{
+//     console.log("kaam par ja dalle");}
+ ////kaam par ja dalle
+
+
+//so if one statement is true then it will give us true condition 
+//if now one is true then false condition
+
+
+
+// let isLoggedIn=false;
+// if(!isLoggedIn)
+// {
+//     console.log("login kro pele")
+// }
+
+
+// let userName="gautam-thakur";
+// let password=1234567;
+
+// if(userName==="gautam-thakur" && password==1234567){
+//     console.log("Aoo Malik")
+// }else{
+//     console.log("Koun hai be");
+// }
+
+
+//length--------------
+
+let password="645hkvjh46jhgk5hk4656";
+
+if(password.length>=8){
+    console.log("sahi hai ")
 }else{
-    console.log("bhagg ynha se");
-}
+    console.log("galat hai")}
 
-
-
-
-
-
+    //i learn new thing that length is not count in number it only count in string
 
 
