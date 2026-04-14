@@ -46,7 +46,7 @@
 //     age:21,
 //     gender:"female",
 //     from:"badon",
-//     merried:"false"
+//     merried:false
 // }
 // console.log(info.gender);
 // console.log(info.age);
@@ -64,7 +64,7 @@
 //     age:21,
 //     gender:"female",
 //     from:"badon",
-//     merried:"false"
+//     merried:false
 // }
 // about.age=27;
 // about.from="dumehar";
@@ -153,10 +153,32 @@
 
 //logical ---------------
 
-let age=9;
-if(age>=18){
-    console.log("adult");
-}else
-{console.log("bda ho ja munna abhi")}
+// let age=9;
+// if(age>=18){
+//     console.log("adult");
+// }else
+// {console.log("bda ho ja munna abhi")}
+
+//this is example of greter and less then-----
+
+
+//&& -----this says that i need both condition true then i gave ture
+
+//  ||----says i need onlty one true condition and i will gave ture 
+
+let age =23;
+let hasVoterId=true;
+
+if(age>=18 && hasVoterId===true){
+    console.log("you can vote buddy")
+}else{
+    console.log("bhagg ynha se");
+}
+
+
+
+
+
+
 
 
