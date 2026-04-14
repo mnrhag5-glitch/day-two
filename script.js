@@ -137,14 +137,26 @@
 //console.log(a==b);    //turw bcs it check only value not type
 
 
-let a =12;
-let b="12";
+// let a =12;
+// let b="12";
 
-console.log(a!=b);     //true  bcz ! its mean not-equals two
-console .log(a!==b)    // true  bcz not equal value or type
-
-
+//console.log(a!=b);     //false  bcz ! its mean not-equals two
+//console .log(a!==b)    // true  bcz not equal value or type
 
 
+// let a=23;
+// let b=45;
+
+//console.log(a>=b)   // false//gretter then
+//console.log(a<=b)   //ture // less then
+
+
+//logical ---------------
+
+let age=9;
+if(age>=18){
+    console.log("adult");
+}else
+{console.log("bda ho ja munna abhi")}
 
 
