@@ -111,18 +111,37 @@
 
 //assignment-------
 
-let a=10;
-let b=20;
+// let a=10;
+// let b=20;
 
 
-console.log(++a);//it gave us 11
-console.log(a++);//it gave us 11
-console.log(a++);//it gave us 12
+//console.log(++a);   //it gave us 11
+//console.log(a++);   //it gave us 11
+//console.log(a++);   //it gave us 12
 
 
-let x=12;
-console.log(x+=5);
+// let x=12;
+// console.log(x+=5);
 //just like another AO worked
+
+
+
+//comparison operator-----
+
+// let a=4;
+// let b="4";
+
+//console.log(a===b);   //bcs tripple equlstwo check value+type and value is diff so it gave us false
+
+
+//console.log(a==b);    //turw bcs it check only value not type
+
+
+let a =12;
+let b="12";
+
+console.log(a!=b);     //true  bcz ! its mean not-equals two
+console .log(a!==b)    // true  bcz not equal value or type
 
 
 
