@@ -37,78 +37,95 @@
 
 //let is block sccope 
 
-let name="gautam";
-name="seju";
-console.log(name);
+// let name="gautam";
+// name="seju";
+// console.log(name);
 
-let info={
-    name:"seju",
-    age:21,
-    gender:"female",
-    from:"badon",
-    merried:"false"
-}
-console.log(info.gender);
-console.log(info.age);
-console.log(info.name);
-console.log(info.merried);
-console.log(info);
-
-
-//so this is object 
-
-//we can change some info under it---
-
-let about={
-    name:"seju",
-    age:21,
-    gender:"female",
-    from:"badon",
-    merried:"false"
-}
-about.age=27;
-about.from="dumehar";
-
-console.log(about);
+// let info={
+//     name:"seju",
+//     age:21,
+//     gender:"female",
+//     from:"badon",
+//     merried:"false"
+// }
+// console.log(info.gender);
+// console.log(info.age);
+// console.log(info.name);
+// console.log(info.merried);
+// console.log(info);
 
 
-//so this is object and this is how we can check key,value and change the value
-//now next is operators and condition
+// //so this is object 
 
-//we use these operators for calculte , cpmpare , logic check
+// //we can change some info under it---
 
-let a=5;
-let b=10;
-let sum=a+b;
-console.log(sum)
+// let about={
+//     name:"seju",
+//     age:21,
+//     gender:"female",
+//     from:"badon",
+//     merried:"false"
+// }
+// about.age=27;
+// about.from="dumehar";
 
-let c=5;
-let d=10;
-let sub=a-b;
-console.log(sub)
-
-let e=5;
-let f=10;
-let multi=a*b;
-console.log(multi)
-
-let g=15;
-let h=5;
-let divide=a/b;
-console.log(divide)
+// console.log(about);
 
 
-let i=15;
-let j=3;
-let exponetation=a%b;
-console.log(exponetation);
+// //so this is object and this is how we can check key,value and change the value
+// //now next is operators and condition
 
-let k=15;
-let l=3;
-let modulor=a**b;
-console.log(modulor);
+// //we use these operators for calculte , cpmpare , logic check
+
+// let a=5;
+// let b=10;
+// let sum=a+b;
+// console.log(sum)
+
+// let c=5;
+// let d=10;
+// let sub=a-b;
+// console.log(sub)
+
+// let e=5;
+// let f=10;
+// let multi=a*b;
+// console.log(multi)
+
+// let g=15;
+// let h=5;
+// let divide=a/b;
+// console.log(divide)
+
+
+// let i=15;
+// let j=3;
+// let exponetation=a%b;
+// console.log(exponetation);
+
+// let k=15;
+// let l=3;
+// let modulor=a**b;
+// console.log(modulor);
 
 
 //assignment-------
+
+let a=10;
+let b=20;
+
+
+console.log(++a);//it gave us 11
+console.log(a++);//it gave us 11
+console.log(a++);//it gave us 12
+
+
+let x=12;
+console.log(x+=5);
+//just like another AO worked
+
+
+
+
 
 
